@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой первый BEM-web-сайт</title>
-<!-- Описание особенностей BEM-страницы сайта -->
-
-
-
 </head>
 <body>
-    
+    <!-- Здесь будет основной контент -->
+    <header class="header"><!-- Блок Header-->
+        <div class="header__logo">My Logo</div><!-- Элементы блока - Логотип -->
+        <a href="https://fastpic.org/view/124/2024/0910/5aa3a049fedd478220ae81e68e11b501.jpg.html" 
+    target="_blank"><img src="https://i124.fastpic.org/thumb/2024/0910/01/5aa3a049fedd478220ae81e68e11b501.jpeg" 
+    border="0"></a>
+        <nav class="header__nav"><!-- Список -->
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a>
+    </li>
+                <li class="nav__item"><a href="#"
+    class="nav__link">About</a></li><!-- Ссылки -->
+                <li class="nav__item"><a href="#"
+    class="nav__link">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+<!-- Блок Main -->
+<main class="content">
+    <section class="content__section">
+    <h1 class="content__title">Добро пожаловать на мою БЭМ-страницу</h1>
+    <p class="content__text">This is a simple example of a web page
+    structured with BEM methodology.</p>
+    </section>
+    </main>
 </body>
+<footer class="footer">
+    <p class="footer__text">&copy; 2024 My First BEM Page</p>
+    <!-- Блок footer содержит элемент footer__text , который представляет текстовую информацию. -->
+    </footer>
 </html>
